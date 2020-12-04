@@ -10,8 +10,8 @@ using todo_api.Data;
 namespace todo_api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201204135125_version06")]
-    partial class version06
+    [Migration("20201204171457_version01")]
+    partial class version01
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
